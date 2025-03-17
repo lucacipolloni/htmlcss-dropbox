@@ -21,6 +21,10 @@ ul {
   list-style-type: none;
 }
 
+section {
+  margin: 50px 0;
+}
+
 /* UTILITY */
 
 .btn {
@@ -67,6 +71,17 @@ ul {
 .col {
   width: 100%;
 }
+.col-1-2 {
+  width: 50%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-30 {
+  width: 30%;
+}
 
 /*HEADER*/
 
@@ -87,4 +102,36 @@ ul {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+/*   JUMBO  */
+
+#jumbo .col-30 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+#jumbo .arrow {
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+
+#jumbo .container {
+  position: relative;
+  top: 85px;
+}
+
+#jumbo {
+  background-color: #b4d0e7;
+  margin-bottom: 85px;
+}
+
+#jumbo h1 {
+  margin-bottom: 30px;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+#jumbo p {
+  line-height: 25px;
 }
