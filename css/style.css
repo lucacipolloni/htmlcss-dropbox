@@ -40,6 +40,12 @@ section {
   border-color: #0062fe;
 }
 
+.btn.btn-white {
+  color: black;
+  background-color: white;
+  max-width: 170px;
+}
+
 .debug,
 .debug * {
   min-height: 50px;
@@ -49,7 +55,7 @@ section {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
@@ -57,7 +63,7 @@ section {
 }
 
 .container.container-xl {
-  max-width: 1180px;
+  max-width: 1100px;
 }
 
 .row {
@@ -89,6 +95,14 @@ section {
 
 .col-30 {
   width: 30%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
 }
 
 /*HEADER*/
@@ -207,4 +221,21 @@ section {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+/* PARTNER*/
+
+#find-partner .col-40 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 20px;
+}
+
+#find-partner h3 {
+  margin-top: 40px;
+  font-size: 1.4rem;
+}
+#find-partner p {
+  line-height: 25px;
 }
