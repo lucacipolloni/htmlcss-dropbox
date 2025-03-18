@@ -58,8 +58,8 @@ section {
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .container.container-xl {
@@ -69,14 +69,14 @@ section {
 .row {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 1rem;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
+  row-gap: 3rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 
 [class*="col"] {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .col {
@@ -237,5 +237,17 @@ section {
   font-size: 1.4rem;
 }
 #find-partner p {
+  line-height: 25px;
+}
+
+/* OPERATIONS*/
+
+#operation h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+#operation .card {
   line-height: 25px;
 }
